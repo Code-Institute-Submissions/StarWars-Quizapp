@@ -1,45 +1,55 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# **Star Wars Quizapp - A milestone project**
 
-Welcome Harry-Leepz,
+## **Contents**
+---
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## **Introduction**
 
-## Gitpod Reminders
+Welcome to my second milestone project, the Starwars Quiz app.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+I had great success with my first milestone project, Project Sikhism. In my second milestone project, I have tried to expand on 
+my knowledge with the hope to create a more interactive experience for users. 
 
-`python3 -m http.server`
+This project will hopefully show some fundamental learning and understanding of JavaScript. Combining JavaScript, HTML and CSS, 
+I aim to create an interactive quiz app based on Star Wars.
 
-A blue button should appear to click: *Make Public*,
+A large part of the inspiration for this project comes from my love for the Star Wars Universe, and the success of the current TV series, The Mandalorian.
+I hope fellow Star Wars fans enjoy the project.
 
-Another blue button should appear to click: *Open Browser*.
+I will outline the steps taken and the philosophy behind the project, from the planning of the project to the development. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Thank you for viewing this project, I hope you enjoy my attempt at a quiz app.
 
-A blue button should appear to click: *Make Public*,
+May the force be with you!
 
-Another blue button should appear to click: *Open Browser*.
+---
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## **UX – User Experience Design**
+---
 
-## Updates Since The Instructional Video
+## **Strategy Plane**
+---
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## **Scope Plane**
+---
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## **Structure Plane**
+---
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## **Skeleton Plane**
+---
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## **Surface Plane**
+---
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## **Technologies Used**
+---
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## **Testing**
+---
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## **Deployment**
+---
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## **Credits**
+---
