@@ -25,6 +25,19 @@ May the force be with you!
 ---
 
 ## **UX – User Experience Design**
+To help with development, I followed Jason James Garrett’s, “The Elements of User-Experience”. 
+
+The goal of every project should be the provide a positive emotional experience for the user. As developers, it can be easy to get off track with implementations of features, which in theory may seem great, but can cause confusion for users interacting with the project.
+
+The planning and development of the project is split into 5 planes,
+- The Strategy Plane
+- The Scope Plane
+- The Structure Plane
+- The Skeleton Plane
+- The Surface Plane
+
+I will explain in detail each Planes process of development.
+
 ---
 
 ## **Strategy Plane**
