@@ -58,8 +58,33 @@ The Strategy Plane consists of coming up with an idea to help us to better under
 
 - As a creator, I would like to add interactive elements outside of the game, potentially adding an alternative to dark/light mode, but with Jedi/Sith colors instead.
 
-Having established clear goals for what I would like to achieve with the project as a creator, I did some research amongst friends to better establish what users would like from the project.
+Having established clear goals for what I would like to achieve with the project as a creator, I did some research amongst friends and fans to better establish what users would like from the project.
 
+### **User Stories** ###
+
+**First-time visitor goals**, 
+
+- As a first-time visitor, I want some introduction to help me understand the purpose of the project.
+
+- As a first-time visitor, I want to be able to navigate to the relevant section I am looking for without having to scroll.
+
+- As a first-time visitor, I want to be able to see some instructions on how to play, before starting the game.
+
+- As a first-time visitor, I would like to see some familiarity with the movies, with either sounds or images.
+
+- As a first-time visitor, I would like to select an answer and know if I selected the correct or incorrect answer with a visual response.
+
+**Returning visitor goals**,
+
+- As a returning visitor, I would like to have my scores saved per session.
+
+- As a returning visitor, I would like to have a way to contact the creator, to provide feedback, or bring attention to any bugs.
+
+From my Creator goals and User stories, it is much easier to understand what features are important to add for a positive user experience versus what I may believe the user would like to see.
+
+As a creator with clearer guidelines, I am better equipped to come up with a design for the project, and plan what the first deployed version would look like, and what features I can add later to enhance the project later.
+
+In the Scope Plane, I will go into more detail about the planning process for the project.
 
 
 ---
