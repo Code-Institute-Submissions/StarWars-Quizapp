@@ -1,5 +1,35 @@
 body {
-    background-color: aqua;
+    background-color: black;
     font-family: 'Luckiest Guy', cursive;
     color: black;
 }
+
+/* --==================== Start Nav Bar ====================-- */
+
+.navbar {
+    background-color: #ffca28;
+    padding: 0;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-nav .nav-item .active {
+    color: #ffca28;
+    text-decoration: underline;
+    background-color: black;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffca28;
+    text-decoration: underline;
+    background-color: black;
+}
+
+/* --==================== End Nav Bar ====================-- */
