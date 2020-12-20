@@ -4,6 +4,21 @@ body {
     color: black;
 }
 
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
 /* --==================== Start Nav Bar ====================-- */
 
 .navbar {
@@ -41,13 +56,31 @@ body {
     font-size: 4.5rem;
     letter-spacing: 4px;
     text-transform: uppercase;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .main-heading {
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    }
 }
 
 .hero-image {
     max-width: 100%;
     height: auto;
     margin-top: 0;
+}
+
+.page-content {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 /* --==================== End Page Heading/Hero Image ====================-- */
