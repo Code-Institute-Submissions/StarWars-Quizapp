@@ -7,7 +7,7 @@ body {
 /* --==================== Start Nav Bar ====================-- */
 
 .navbar {
-    background-color: #ffca28;
+    background-color: #fdd835;
     padding: 0;
 }
 
@@ -21,15 +21,33 @@ body {
 }
 
 .navbar-nav .nav-item .active {
-    color: #ffca28;
+    color: #fdd835;
     text-decoration: underline;
     background-color: black;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #ffca28;
+    color: #fdd835;
     text-decoration: underline;
     background-color: black;
 }
 
 /* --==================== End Nav Bar ====================-- */
+
+/* --==================== End Page Heading/Hero Image ====================-- */
+
+.main-heading {
+    color: white;
+    font-size: 4.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+/* --==================== End Page Heading/Hero Image ====================-- */
