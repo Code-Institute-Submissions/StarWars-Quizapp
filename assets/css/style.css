@@ -101,6 +101,20 @@ body {
     border-radius: 5px;
 }
 
+.divider-blue {
+    background-color: #2196f3;
+    width: 60%;
+    height: 1px;
+    border-radius: 5px;
+}
+
+.divider-green{
+    background-color: #8bc34a;
+    width: 60%;
+    height: 1px;
+    border-radius: 5px;
+}
+
 /* --==================== End Dividers ====================-- */
 
 /* --==================== Start Features ====================-- */
