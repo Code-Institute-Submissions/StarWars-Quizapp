@@ -1,7 +1,7 @@
 body {
     background-color: black;
     font-family: 'Luckiest Guy', cursive;
-    color: black;
+    color: #fdd835;
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
@@ -138,3 +138,26 @@ body {
 }
 
 /* --==================== End Features ====================-- */
+
+/* --==================== Start Footer ====================-- */
+
+.list-inline {
+    margin: 0;
+}
+
+.social-link a i {
+    color: #fdd835;
+    font-size: 2rem;
+}
+
+.social-link a i:hover {
+    color: #fafafa;
+    font-size: 1.8rem;
+}
+
+.copyright-text {
+    color: #fdd835;
+    text-transform: uppercase;
+}
+
+/* --==================== End Footer ====================-- */
