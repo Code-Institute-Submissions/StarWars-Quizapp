@@ -41,6 +41,10 @@ body {
     background-color: black;
 }
 
+.navbar-toggler {
+    color: #fafafa;
+    font-size: 1.3rem;
+}
 /* --==================== End Nav Bar ====================-- */
 
 /* --==================== End Page Heading/Hero Image ====================-- */
@@ -116,6 +120,21 @@ body {
     font-size: 1rem;
 }
 /* --==================== End Features ====================-- */
+
+/* --==================== Start Play Now ====================-- */
+
+.btn {
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+    border: 0.1rem solid #fdd835;
+    margin: 2rem 1rem;
+    text-decoration: none;
+    color: #fafafa;
+    background-color: black;
+}
+
+/* --==================== End Play Now ====================-- */
 
 /* --==================== Start Footer ====================-- */
 
