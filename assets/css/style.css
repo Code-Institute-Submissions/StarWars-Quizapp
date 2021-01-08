@@ -229,4 +229,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#question {
+    color: #fafafa;
+    font-size: 2rem;
+    clear: both;
+}
+
 /* --==================== End Quiz Box ====================-- */
