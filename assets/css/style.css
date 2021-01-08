@@ -4,6 +4,11 @@ body {
     color: #fdd835;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
@@ -205,3 +210,23 @@ body {
 }
 
 /* --==================== End Answer Container ====================-- */
+
+/* --==================== Start Quiz Box ====================-- */
+
+#quiz-timer {
+    float: left;
+    color: #fafafa;
+    font-size: 1.5rem;
+}
+
+.quiz-score {
+    float: right;
+    color: #fafafa;
+    font-size: 1.5rem;
+}
+
+#score {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --==================== End Quiz Box ====================-- */
