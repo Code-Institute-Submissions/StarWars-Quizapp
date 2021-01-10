@@ -2,7 +2,7 @@
 
 const questionText = document.querySelector(`#question`);
 const answerText = Array.from(document.querySelectorAll(`.answer-content`));
-const timerText = document.querySelector(`#quiz-timer`);
+const progressText = document.querySelector(`#progress-text`);
 const scoreText = document.querySelector(`#score`);
 
 let currentQuestion = {}
@@ -10,7 +10,6 @@ let acceptingAnswer = true
 let score = 0
 let questionCounter = 0
 let availableQuestions = []
-
 
 
 // --- Quiz Questions and choices --- //
@@ -118,6 +117,7 @@ getNewQuestion = () => {
     }
 
     questionCounter++
+    progressText.innerText = `Question ${questionCounter} of ${maxQuestions}`
 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex]
@@ -132,7 +132,7 @@ getNewQuestion = () => {
 
     acceptingAnswer = true
 }
-
+ 
 answerText.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswer) return
@@ -150,7 +150,7 @@ answerText.forEach(choice => {
         selectedChoice.parentElement.classList.add(classToApply)
 
         setTimeout(() => {
-            selectedchoice.parentElement.classList.remove(classToApply)
+            selectedChoice.parentElement.classList.remove(classToApply)
             getNewQuestion()
 
         }, 1000)
