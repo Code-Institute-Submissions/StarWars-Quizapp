@@ -194,6 +194,8 @@ body {
 
 .answer-content {
     font-family: 'Roboto', sans-serif;
+    width: 100%;
+    text-align: left;
     font-size: 1.5rem;
     padding: 1rem;
     margin: 0;
