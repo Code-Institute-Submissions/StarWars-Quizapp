@@ -181,8 +181,8 @@ body {
 
 .answer-container:hover {
     cursor: pointer;
-    color: black;
-    background-color: #fdd835;
+    transform: scale(1.02);
+    transform: transform 100ms;
 }
 
 .answer-prefix {
