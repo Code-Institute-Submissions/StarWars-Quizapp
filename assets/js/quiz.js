@@ -1,12 +1,12 @@
 // --- Global Variables --- //
 
 const questionText = document.querySelector(`#question`);
-const answerText = Array.from(document.querySelectorAll(`.choice-content`));
+const answerText = Array.from(document.querySelectorAll(`.answer-content`));
 const timerText = document.querySelector(`#quiz-timer`);
 const scoreText = document.querySelector(`#score`);
 
 let currentQuestion = {}
-let acceptingchoice = true
+let acceptingAnswer = true
 let score = 0
 let questionCounter = 0
 let availableQuestions = []
@@ -69,7 +69,7 @@ let questions = [
         choice1: "Morai",
         choice2: "Moray",
         choice3: "Mortis",
-        choice4: "Mor'Tuun",
+        choice4: "Mor'tuun",
         answer: 1,
     },
     {
@@ -123,21 +123,21 @@ getNewQuestion = () => {
     currentQuestion = availableQuestions[questionsIndex]
     question.innerText = currentQuestion.question
 
-    choiceText.forEach(choice => {
+    answerText.forEach(choice => {
         const number = choice.dataset['number']
         choice.innerText = currentQuestion['choice' + number]
     })
 
     availableQuestions.splice(questionsIndex, 1)
 
-    acceptingchoice = true
+    acceptingAnswer = true
 }
 
 answerText.forEach(choice => {
     choice.addEventListener('click', e => {
-        if(!acceptinganswer) return
+        if(!acceptingAnswer) return
 
-        acceptingchoice = false
+        acceptingAnswer = false
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
