@@ -239,3 +239,32 @@ body {
 }
 
 /* --==================== End Quiz Box ====================-- */
+
+/* --==================== Start Quiz Endpage ====================-- */
+
+.btn-endpage {
+    display: block;
+    width: 20rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+    border: 0.1rem solid #fdd835;
+    margin: auto;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fafafa;
+    background-color: black;
+    border-radius: 3px;
+}
+
+input {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    border: none;
+}
+/* --==================== End Quiz Endpage ====================-- */

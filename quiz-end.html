@@ -51,17 +51,17 @@
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-12 col-lg-6 text-center">
                 <div id="end-page-container">
-                    <h1 id="quiz-finalscore"> 0 </h1>
+                    <h1 class="sub-heading">Your Score: <span id="quiz-finalscore"> 0 </span> </h1>
                     <form id="endpage-form">
-                        <h2 class="sub-heading"> Enter a name below to save your score!</h2>
+                        <h2 class="mini-heading"> Enter a name below to save your score!</h2>
                         <input type="text" name="name" id="username" placeholder="Enter your name!">
-                        <button class="btn btn-warning" id="save-score" type="submit" 
+                        <button class="btn-endpage btn-warning" id="save-score" type="submit" 
                         onclick="saveHighscore(event)" disabled>
                         Save!
                         </button>
                     </form>
-                    <a class="btn btn-warning" href="quiz.html"> Play Again!</a>
-                    <a class="btn btn-warning" href="index.html"> Home</a>
+                    <a class="btn-endpage btn-warning" href="quiz.html"> Play Again!</a>
+                    <a class="btn-endpage btn-warning" href="index.html"> Home</a>
                 </div>
             </div>
         </div>
