@@ -111,7 +111,7 @@ startQuiz = () => {
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > maxQuestions) {
-        localStorage.setItem('mostRecentScore', score)
+        localStorage.setItem('recentScore', score)
 
         return window.location.assign(`quiz-end.html`)
     }
