@@ -267,4 +267,20 @@ input {
     border-radius: 3px;
     border: none;
 }
+
 /* --==================== End Quiz Endpage ====================-- */
+
+/* --==================== Start Highscores ====================-- */
+
+.list-content {
+    list-style: none;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+#leaderboard {
+    padding: 0;
+}
+
+/* --==================== End Highscores ====================-- */
