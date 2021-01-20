@@ -32,7 +32,7 @@ saveHighscore = e => {
     highScores.splice(6)
 
     localStorage.setItem(`highScores`, JSON.stringify(highScores))
-    window.location.assign(`quiz-end.html`)
+    window.location.assign(`https://harry-leepz.github.io/StarWars-Quizapp/quiz-end.html`)
 
 
 }
