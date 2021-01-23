@@ -4,26 +4,6 @@ body {
     color: #fdd835;
 }
 
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
-/* // Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
-
 /* --==================== Start Nav Bar ====================-- */
 
 .navbar {
@@ -129,14 +109,19 @@ body {
 /* --==================== Start Play Now ====================-- */
 
 .btn {
+    display: block;
+    width: 20rem;
     font-size: 1.3rem;
     padding: 1rem;
     text-align: center;
     border: 0.1rem solid #fdd835;
-    margin: 2rem 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     text-decoration: none;
     color: #fafafa;
     background-color: black;
+    border-radius: 3px;
 }
 
 /* --==================== End Play Now ====================-- */
@@ -168,7 +153,6 @@ body {
 
 .answer-container {
     display: flex;
-    font-family: 'Roboto', sans-serif;
     color: #fafafa;
     width: 100%;
     min-width: 70%;
@@ -187,7 +171,7 @@ body {
 
 .answer-prefix {
     font-family: 'Luckiest Guy', cursive;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 1rem 1.5rem;
     margin: 0;
 }
@@ -196,9 +180,28 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 1rem;
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .answer-prefix {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+    margin: 0;
+}
+
+    .answer-content {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    text-align: left;
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin: 0;
+}
+
 }
 
 .correct {
@@ -218,13 +221,13 @@ body {
 #progress-text {
     float: left;
     color: #fafafa;
-    font-size: 1.5rem;;
+    font-size: 2rem;;
 }
 
 .quiz-score {
     float: right;
     color: #fafafa;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #score {
@@ -232,30 +235,40 @@ body {
 }
 
 #question {
+    font-family: 'Roboto', sans-serif;
     color: #fafafa;
     font-size: 2rem;
     clear: both;
     padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    #progress-text {
+    float: left;
+    color: #fafafa;
+    font-size: 1.1rem;;
+}
+
+    .quiz-score {
+    float: right;
+    color: #fafafa;
+    font-size: 1.1rem;
+}
+
+    #question {
+    font-family: 'Roboto', sans-serif;
+    color: #fafafa;
+    font-size: 1.2rem;
+    clear: both;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
 }
 
 /* --==================== End Quiz Box ====================-- */
 
 /* --==================== Start Quiz Endpage ====================-- */
-
-.btn-endpage {
-    display: block;
-    width: 20rem;
-    font-size: 1.3rem;
-    padding: 1rem;
-    text-align: center;
-    border: 0.1rem solid #fdd835;
-    margin: auto;
-    margin-bottom: 1rem;
-    text-decoration: none;
-    color: #fafafa;
-    background-color: black;
-    border-radius: 3px;
-}
 
 input {
     margin-bottom: 1rem;
@@ -276,7 +289,8 @@ input {
     list-style: none;
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    margin: 5px;
 }
 
 #leaderboard {
