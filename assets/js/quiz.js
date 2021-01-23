@@ -5,11 +5,11 @@ const answerText = Array.from(document.querySelectorAll(`.answer-content`));
 const progressText = document.querySelector(`#progress-text`);
 const scoreText = document.querySelector(`#score`);
 
-let currentQuestion = {}
-let acceptingAnswer = true
-let score = 0
-let questionCounter = 0
-let availableQuestions = []
+let currentQuestion = {};
+let acceptingAnswer = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
 
 
 // --- Quiz Questions and choices --- //
@@ -95,71 +95,71 @@ let questions = [
         choice4: "Darth Vitiate",
         answer: 2,
     }
-]
+];
 
-const scorePoints = 100
-const maxQuestions = 10
+const scorePoints = 100;
+const maxQuestions = 10;
 
 // --- Quiz Game --- //
 
 startQuiz = () => {
-    questionCounter = 0
-    score = 0
-    availableQuestions = [...questions]
-    getNewQuestion()
-}
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
+};
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > maxQuestions) {
-        localStorage.setItem('recentScore', score)
+        localStorage.setItem('recentScore', score);
 
-        return window.location.assign(`quiz-end.html`)
+        return window.location.assign(`quiz-end.html`);
     }
 
-    questionCounter++
-    progressText.innerText = `Question ${questionCounter} of ${maxQuestions}`
+    questionCounter++;
+    progressText.innerText = `Question ${questionCounter} of ${maxQuestions}`;
 
-    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions[questionsIndex]
-    question.innerText = currentQuestion.question
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionsIndex];
+    question.innerText = currentQuestion.question;
 
     answerText.forEach(choice => {
-        const number = choice.dataset['number']
-        choice.innerText = currentQuestion['choice' + number]
-    })
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['choice' + number];
+    });
 
-    availableQuestions.splice(questionsIndex, 1)
+    availableQuestions.splice(questionsIndex, 1);
 
-    acceptingAnswer = true
-}
+    acceptingAnswer = true;
+};
  
 answerText.forEach(choice => {
     choice.addEventListener('click', e => {
-        if(!acceptingAnswer) return
+        if(!acceptingAnswer) return;
 
-        acceptingAnswer = false
-        const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataset['number']
+        acceptingAnswer = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number'];
 
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if(classToApply === 'correct') {
-            incrementScore(scorePoints)
+            incrementScore(scorePoints);
         }
 
-        selectedChoice.parentElement.classList.add(classToApply)
+        selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion()
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
 
-        }, 1000)
-    })
-})
+        }, 1000);
+    });
+});
 
 incrementScore = num => {
-    score +=num
-    scoreText.innerText = score
-}
+    score +=num;
+    scoreText.innerText = score;
+};
 
-startQuiz()
+startQuiz();
