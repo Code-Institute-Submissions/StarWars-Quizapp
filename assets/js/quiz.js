@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // --- Global Variables --- //
 
 const questionText = document.querySelector(`#question`);
@@ -102,14 +104,14 @@ const maxQuestions = 10;
 
 // --- Quiz Game --- //
 
-startQuiz = () => {
+ let startQuiz = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
 };
 
-getNewQuestion = () => {
+let getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > maxQuestions) {
         localStorage.setItem('recentScore', score);
 
@@ -124,7 +126,7 @@ getNewQuestion = () => {
     question.innerText = currentQuestion.question;
 
     answerText.forEach(choice => {
-        const number = choice.dataset['number'];
+        const number = choice.dataset.number;
         choice.innerText = currentQuestion['choice' + number];
     });
 
@@ -139,7 +141,7 @@ answerText.forEach(choice => {
 
         acceptingAnswer = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+        const selectedAnswer = selectedChoice.dataset.number;
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
@@ -157,7 +159,7 @@ answerText.forEach(choice => {
     });
 });
 
-incrementScore = num => {
+let incrementScore = num => {
     score +=num;
     scoreText.innerText = score;
 };
