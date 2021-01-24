@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
     background-color: black;
     font-family: 'Luckiest Guy', cursive;
@@ -152,6 +159,8 @@ body {
 /* --==================== Start Answer Container ====================-- */
 
 .answer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color: #fafafa;
     width: 100%;
@@ -165,8 +174,9 @@ body {
 
 .answer-container:hover {
     cursor: pointer;
-    transform: scale(1.02);
-    transform: transform 100ms;
+    -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+            transform: scale(1.02);
 }
 
 .answer-prefix {
