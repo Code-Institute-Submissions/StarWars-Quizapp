@@ -116,6 +116,23 @@ My plan for a phased release is
 ---
 
 ## **Structure Plane**
+
+**Colors**
+
+![Star Wars Logo ](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/assets/images/starwars-heroimage.png)
+
+
+Before starting the project, I wanted to use the original Star Wars logo as my hero image. As a fan of the franchise, I understand what it meant to me and what it meant to other fans. I used the Yellow/Black color combination throughout the project, and just added white as a contrasting color. I felt the color combination
+of white/black/yellow was simple and clean. 
+
+**Typography**
+
+The fonts I chose for this project are Luckiest Guy and Roboto. 
+Roboto I feel just looks very modern and is very easy on the eyes and simple to read. It isn't to distracting and doesn't take away from the other contents on the page.
+Luckiest Guy is a new font I had never used before. I wanted to use a font that was bold, engaging and fun. And this font definately stood out as a great font to use as a header 
+and a contrast to Roboto. 
+
+![Fonts used]()
 ---
 
 ## **Skeleton Plane**
