@@ -54,10 +54,6 @@ The Strategy Plane consists of coming up with an idea to help us to better under
 
 - As a creator, I want the project to be responsive across different resolutions.
 
-- As a creator, I would like to add star wars characters to the high score page, so the user feels like they are competing with characters from the star wars universe.
-
-- As a creator, I would like to add interactive elements outside of the game, potentially adding an alternative to dark/light mode, but with Jedi/Sith colors instead.
-
 Having established clear goals for what I would like to achieve with the project as a creator, I did some research amongst friends and fans to better establish what users would like from the project.
 
 ### **User Stories** ###
@@ -78,18 +74,45 @@ Having established clear goals for what I would like to achieve with the project
 
 - As a returning visitor, I would like to have my scores saved per session.
 
-- As a returning visitor, I would like to have a way to contact the creator, to provide feedback, or bring attention to any bugs.
-
 From my Creator goals and User stories, it is much easier to understand what features are important to add for a positive user experience versus what I may believe the user would like to see.
 
 As a creator with clearer guidelines, I am better equipped to come up with a design for the project, and plan what the first deployed version would look like, and what features I can add later to enhance the project later.
 
 In the Scope Plane, I will go into more detail about the planning process for the project.
 
-
 ---
 
 ## **Scope Plane**
+
+My biggest issue creating the project with the goals I had was whether I could build the project with the lack
+of experience I had using JavaScript. This is my first project using JavaScript, and timescale was definitely going to be a 
+factor when dealing with issues and bugs.
+
+I decided to start with a minimal viable product on release, allowing me to start gathering feedback. A phased release with additional features would allow me to keep adding features to the project, and keep the project
+engaging for returning visitors
+
+My plan for a phased release is 
+
+**Phase 1**
+
+- A simple Home Page, with a navigation menu at the top, and sections for features and instructions.
+- A small introduction so the User can understand what the project is. 
+- Clear and visible links to the game and highscores pages.
+- A simple quiz layout that is easy to understand and use. 
+- A final page where the User can save their score, navigate back home or play again. 
+
+**Phase 2**
+
+- Expansion to the quiz with new questions.
+- A way for the User to be able to change the colors of the quiz page, perhaps being able to change the colors to red/blue to represent the Sith/Jedi.
+- Iconic scrolling text from the movies, to begin the quiz to bring a more nostalgic feeling for fans.
+
+**Phase 3** 
+
+- A contact section for Users to leave feedback and suggestions.
+- Game sounds for Users when they select correct/incorrect answers.
+- Add characters from the movies to the high scores page, to give the impression to the user they are competing with characters from the movies.
+
 ---
 
 ## **Structure Plane**
