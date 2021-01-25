@@ -2,7 +2,7 @@
 
 // --- Global Variables --- //
 
-const questionText = document.querySelector(`#question`);
+const question = document.querySelector(`#question`);
 const answerText = Array.from(document.querySelectorAll(`.answer-content`));
 const progressText = document.querySelector(`#progress-text`);
 const scoreText = document.querySelector(`#score`);
