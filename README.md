@@ -123,16 +123,26 @@ My plan for a phased release is
 
 
 Before starting the project, I wanted to use the original Star Wars logo as my hero image. As a fan of the franchise, I understand what it meant to me and what it meant to other fans. I used the Yellow/Black color combination throughout the project, and just added white as a contrasting color. I felt the color combination
-of white/black/yellow was simple and clean. 
+of White/Black/Yellow was simple and clean. 
+
+I have always been one who prefers Dark Mode on browsers when available. I decided to keep the Black background throughout the project while using Yellow/White as font colors.
 
 **Typography**
 
 The fonts I chose for this project are Luckiest Guy and Roboto. 
-Roboto I feel just looks very modern and is very easy on the eyes and simple to read. It isn't to distracting and doesn't take away from the other contents on the page.
-Luckiest Guy is a new font I had never used before. I wanted to use a font that was bold, engaging and fun. And this font definately stood out as a great font to use as a header 
-and a contrast to Roboto. 
+Roboto personally looks very modern, very easy on the eyes, and simple to read. It isn't too distracting and doesn't take away from the other contents on the page.
+Luckiest Guy is a new font I had never used before. I wanted to use a font that was bold, engaging, and fun. And this font definitely stood out as a great font to use as a header 
+and contrast to Roboto. 
 
-![Fonts used]()
+![Fonts used](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/documentation/fonts.png)
+
+The project overall is responsive across different resolutions, I decided to add CSS media queries to make the fonts on the quiz page smaller to keep all the content on a single page without the need to scroll.
+
+I used Bootstrap as the main framework to help the project stay responsive. Bootstrap is a framework I am becoming a lot more familiar with, Bootstraps built-in class's allowed me to spend more time on
+the aspects of the project that required more attention.
+
+I wanted to add a footer section to the home page. I wanted to keep it simple and just added standard copyright text and used font awesome icons to link to the associated social media page. 
+
 ---
 
 ## **Skeleton Plane**
