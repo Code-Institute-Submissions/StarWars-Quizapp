@@ -1,7 +1,6 @@
 /*jshint esversion: 6 */
 
 // --- Global Variables --- //
-
 const question = document.querySelector(`#question`);
 const answerText = Array.from(document.querySelectorAll(`.answer-content`));
 const progressText = document.querySelector(`#progress-text`);
@@ -12,12 +11,8 @@ let acceptingAnswer = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-
-
-// --- Quiz Questions and choices --- //
-
-let questions = [
-    {
+//  Quiz Questions and choices
+let questions = [{
         question: 'Who created the Rule of two for the Sith ?',
         choice1: 'Darth Sidius',
         choice2: 'Darth Tyrannus',
@@ -101,18 +96,17 @@ let questions = [
 
 const scorePoints = 100;
 const maxQuestions = 10;
-
-// --- Quiz Game --- //
-
- let startQuiz = () => {
+// Start Quiz and set questions to 0 and score to 0
+let startQuiz = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
 };
-
+/*  If no questions are left, save the score and set score in local storage. Redirect the browser to end page. 
+    Randomize questions add set the questions and choices to the relevant HTML objects. */
 let getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionCounter > maxQuestions) {
+    if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
         localStorage.setItem('recentScore', score);
 
         return window.location.assign(`quiz-end.html`);
@@ -134,10 +128,11 @@ let getNewQuestion = () => {
 
     acceptingAnswer = true;
 };
- 
+/* When User selects an answer, apply relevant CSS for correct/incorrect choice. If correct add score. 
+   Remove CSS class's applied and move to next question */
 answerText.forEach(choice => {
     choice.addEventListener('click', e => {
-        if(!acceptingAnswer) return;
+        if (!acceptingAnswer) return;
 
         acceptingAnswer = false;
         const selectedChoice = e.target;
@@ -145,7 +140,7 @@ answerText.forEach(choice => {
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
-        if(classToApply === 'correct') {
+        if (classToApply === 'correct') {
             incrementScore(scorePoints);
         }
 
@@ -158,9 +153,9 @@ answerText.forEach(choice => {
         }, 1000);
     });
 });
-
+// Add score and print the score in the HTML object
 let incrementScore = num => {
-    score +=num;
+    score += num;
     scoreText.innerText = score;
 };
 
