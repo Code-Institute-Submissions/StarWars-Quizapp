@@ -5,19 +5,16 @@ const username = document.querySelector(`#username`);
 const saveScore = document.querySelector(`#save-score`);
 const finalScore = document.querySelector(`#quiz-finalscore`);
 const recentScore = localStorage.getItem(`recentScore`);
-
-
 const highScores = JSON.parse(localStorage.getItem(`highScores`)) || [];
 
-const maxHighScores = 6;
-
 finalScore.innerText = recentScore;
-
+// When the user has type into the input container, remove the disabled option on the save button. //
 username.addEventListener(`keyup`, () => {
     saveScore.disabled = !username.value;
 });
-
-saveHighscore = e => {
+/*  When save button is clicked, save the user score and name. 
+    Set the users name and score into local storage and reset the page */
+let saveHighscore = e => {
     e.preventDefault();
 
     const score = {
@@ -27,7 +24,7 @@ saveHighscore = e => {
 
     highScores.push(score);
 
-    highScores.sort((a,b) => {
+    highScores.sort((a, b) => {
         return b.score - a.score;
     });
 
