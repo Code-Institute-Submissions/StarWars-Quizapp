@@ -199,6 +199,40 @@ after the user had finished the quiz. This page would provide the user with opti
 ---
 
 ## **Technologies Used**
+
+- [HTML](https://www.w3schools.com/html/)
+    - The basic building block for the project and to structure the content.
+- [CSS](https://www.w3schools.com/css/)
+    - Style all the web content across the project.
+- [JavaScript](https://www.javascript.com/)
+    - The main programming language used to manipulate HTML dom, and make the project interactive.
+- [jQuery](https://jquery.com/)
+    - Combined with Bootstrap and JavaScript to make the Navbar responsive.
+- [Google Fonts](https://fonts.google.com/)
+    - The 2 main fonts used for the project, Luckiest Guy and Roboto were found and linked from Google Fonts.
+- [Font Awesome](https://fontawesome.com/)
+    - Font Awesome provided the icons used in the Footer of the Home page for Social media.
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+- [Github](https://github.com/)
+    - Storing code for the project after being pushed.
+- [Git](https://git-scm.com/)
+    - Version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [Gitpod](https://gitpod.io)
+    -  Development enviroment for the project.
+- [Balsamiq](https://balsamiq.com/)
+    - Creating the wireframes for the project.
+- [Auto Prefixer](https://autoprefixer.github.io/)
+    -  Parse my CSS and add vendor prefixes
+- [Grammarly](https://app.grammarly.com/)
+    - Fix the thousands of grammar errors across the project.
+- [HTML Validator](https://validator.w3.org/)
+    - Check for any HTML errors and warnings.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - Check for any CSS Errors and warnings.
+- [JavaScript Validator](https://jshint.com/)
+    - Detecting errors and potential problems in JavaScript code.
+
 ---
 
 ## **Testing**
