@@ -206,6 +206,8 @@ after the user had finished the quiz. This page would provide the user with opti
     - Style all the web content across the project.
 - [JavaScript](https://www.javascript.com/)
     - The main programming language used to manipulate HTML dom, and make the project interactive.
+- [Bootstrap](https://getbootstrap.com/)
+    - Main framework to make the project responsive.
 - [jQuery](https://jquery.com/)
     - Combined with Bootstrap and JavaScript to make the Navbar responsive.
 - [Google Fonts](https://fonts.google.com/)
@@ -241,8 +243,48 @@ after the user had finished the quiz. This page would provide the user with opti
 
 [First-time Visitor Goals](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/documentation/first-time-goals.pdf)
 
-[Returning Visitor Goals]()
+[Returning Visitor Goals](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/documentation/returning-goals.pdf)
 
+**Further Testing**
+
+The project was deployed early to gather feedback throughout developement and find bugs, I used Chrome Dev Tools to help test responsiveness.
+Chrome Dev Tools used to emulate the following devices,
+- Apple Ipad
+- Apple Ipad Pro
+- Microsoft Surface Duo
+- Motorola G4
+- Samsung Galaxy S5
+- Google Pixel 2/2 XL
+- Apple iPhone 5/SE
+- Apple iPhone 6/7/8
+- Apple iPhone 6/7/8 Plus
+- Apple iPhone XL
+
+The project was manually tested on the Iphone 11 and Samsung A70.
+
+The project was tested on the following browsers,
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Opera
+
+I used the W3C Markup Validator and W3C CSS Validator to validate my HTML and CSS. All errors were corrected.
+
+I used JSHint to check my JavaScript code, All errors were corrected. 
+- One warning which may show on the quiz-end.js page is due to the function relating to the save button is called in the quiz-end.html file.
+
+**Known Bugs and Fixes**
+
+- JShint Code parsing.
+    - My first time parsing my code through JShint came with many errors. Many of these errors were corrected with the use of ``/*jshint esversion: 6 */``. 
+    - I also had errors relating to functions and variables not being defined and missing semi-colons, these errors were correct with the use of ``let`` and adding the ``;`.
+    - Credit to these fixes goes to, Aaron Sinnot, my mentor and Kotaro TANAKA, from Slack.
+- Error 404 when clicking the save button, to save score.
+    - I wasn't having the issue in ym IDE because during development, but Users were getting directed to a non existing page when clicking save. 
+    - I fixed the function relating to the save button by adding ``window.location.assign(`https://harry-leepz.github.io/StarWars-Quizapp/quiz-end.html`);`` to redirect back to the same page when Users click save.
+
+Alot of the Issues I encountered during development was due to my lack of expereince working with JavaScript. I made the mistake of using camelcase when naming variables, but not using camel case when referring to them in functions which caused some issues. 
+Also I made the mistake of using the ability to highlight and "Change all occurences" options of Gitpod, which caused some issue during development. 
 
 ---
 
@@ -280,4 +322,39 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 ---
 
 ## **Credits**
+
+**Code** 
+
+I watched some walk along tutorials to helps me understand the logic of what types of functions would need to be used. 
+Code was used as shown in videos to help me get functions to work correctly.
+
+- [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1450s&ab_channel=WebDevSimplified)
+- [James Q Quick](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&ab_channel=JamesQQuick)
+- [CodingNepal](https://www.youtube.com/watch?v=pQr4O1OITJo&ab_channel=CodingNepal)
+- [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&ab_channel=BrianDesign)
+
+- [Bootstrap](https://getbootstrap.com/)
+    - Bootstrap Library used for the Navbar code to make the Navbar responsive.
+
+**Media** 
+
+- [Star Wars Logo](https://en.wikipedia.org/wiki/File:Star_Wars_Logo.svg)
+    - File by User:KAMiKAZOW, original logo by Suzy Rice.
+
+**Acknowledgements**
+
+- Mineva
+- Amuro
+- Windfurael
+    - Friends of mine who have a lot more expereince working with JavaScript. At times when things were tough I lent on them for support and guidance. And this project would not be close to what it is without them.
+- Aaron Sinnott 
+    - My mentor, offering great guidance and helped with errors I was getting relating to JShint.
+
+- Final note on what seems like a very very project. 
+    - I started this project eager and excited at the prospect of working on a simple quiz game based on a franchise I love. Going into Christmas we were told to evacuate our home due to flood issues. We went into our 3rd lockdown as a nation when we were excited to finally see
+    our family during Christmas. And the tragic news when we found out my Uncle had passed having a 11 day battle in hospital with Covid.
+    - This is by no means the neatest or cleanest piece of code written espescially pertaining to JavaScript. But it was the best I could do, and to my family and friends who kept pushing to go forwards, Thank you. 
+
+Thank you for viewing this project, and I hope you enjoy the quiz. And whoever you are and where ever you are, *May the force be with you!.*
+
 ---
