@@ -178,6 +178,24 @@ after the user had finished the quiz. This page would provide the user with opti
 ---
 
 ## **Surface Plane**
+
+**Features present in the Project**
+
+- Home Page has a Navbar, the links link to the relevant sections on the Home Page. The Play Now link starts the game. 
+- Navbar is responsive across different resolutions, at ``576px`` width, the Navbar changes to a hamburger menu.
+- Large iconic Hero image to draw the Users attention. Most Users will immediately recognise the Star Wars logo, which hopefully encourages to have a go at playing the game.
+- Dark background throughout the project to give the effect of a Dark Mode theme.
+- Selected answers will respond with relevant color changes to reflect the response. Correct answers will be colored Green / Incorrect answers will be colored Red.
+- Users can save their high score by saving a name. Score and Name are saved in browser local storage, and can be viewed on the High Score page.
+- Score updates with every answer selected. Correct scores award 100 points, Inscorrect scores give 0 with a maximum of 1000 avaibale at the end.
+
+**Features to be implemeneted in the Future**
+
+- Timer for Users to select an answer, if no answer is slected then it moves to the next question.
+- Sound effects as the User interacts with the project, Coorect answers has a certain sound and Incorrect answers have a different sound.
+- The scrolling text from the movies to act as an intro before the quiz starts would be a great user expereince, espescially for fans of the Star Wars Franchise.
+- Further ways for Users to customize the interface. Ability to change to color of certain containers, dark/light mode etc.
+
 ---
 
 ## **Technologies Used**
