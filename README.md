@@ -146,6 +146,35 @@ I wanted to add a footer section to the home page. I wanted to keep it simple an
 ---
 
 ## **Skeleton Plane**
+
+Below is a link to the project wireframes.
+
+[Project Wireframes](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/documentation/wireframes.pdf "Star Wars Quiz App Wireframes.")
+
+For this project, I tried to stay as close to the wireframes that I designed as I could, but some changes were made due mainly to my lack of JavaScript and how to implement certain features
+and some changes that I had originally overlooked that would be needed.
+
+**Home Page**
+
+- The home page remained relatively the same as designed in the Wireframes. The only change that I added was I added a High Scores button that links to the High Scores page. 
+This was an oversight on my part when designing the wireframes and was something I added during development.
+
+**Quiz Page**
+
+- On the Quiz Page, I made two changes. 
+    - I decided to remove the Footer section on the Quiz Page. During development, I realized it didn't make much sense for the User, why would the User click a social link in the middle of the quiz. It also helped with me trying the keep the whole quiz page on one view height size of the page, without the need of the user having to scroll down.
+    - Instead of a timer text in the top left, I changed it more to a progress section, that gave the user information on how many questions are remaining. This was due to me struggling with JavaScript and correctly being able to implement 
+    the timer with my lack of knowledge.
+
+**Quiz Final Page** 
+
+- This page was not included as part of the project wireframes and was not something I had considered. It was an oversight on my part, and during development, I realized I needed a page
+after the user had finished the quiz. This page would provide the user with options of saving their score, playing again, going back home, and a link to the high scores page. 
+
+**High Scores Page**
+
+- The High Scores page stayed relatively the same as the project wireframes. Subtle changes were the removal of the footer, and the increasing the number of high scores from 4 to 6. I removed the Play Again button from the page and kept the link back to the Home Page. This was in response to feedback when sharing the project during development.  
+
 ---
 
 ## **Surface Plane**
