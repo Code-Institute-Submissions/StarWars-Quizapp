@@ -239,7 +239,11 @@ after the user had finished the quiz. This page would provide the user with opti
 
 **User Story Testing**
 
-[First-time Visitor Goals](https://github.com/)
+[First-time Visitor Goals](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/documentation/first-time-goals.pdf)
+
+[Returning Visitor Goals]()
+
+
 ---
 
 ## **Deployment**
