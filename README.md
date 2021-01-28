@@ -1,5 +1,5 @@
 # **Star Wars Quizapp - A milestone project**
-![Responsive View of the Project](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/assets/images/starwars-heroimage.png)
+![Responsive View of the Project](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/documentation/responsive-image.png)
 ## **Contents**
 ---
 
