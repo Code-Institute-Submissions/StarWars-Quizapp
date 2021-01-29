@@ -2,9 +2,20 @@
 ![Responsive View of the Project](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/documentation/responsive-image.png)
 ## **Contents**
 
-- [Introduction](README.md#Introduction)
-- [UXD](README.md#UXD)
-- [Strategy Plane](README.md#Strategy)
+- [Introduction](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#introduction)
+- [UXD - User Experience Design](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#uxd--user-experience-design)
+- [Strategy Plane](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#strategy-plane)
+    - [Creator Stories](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#creator-stories)
+    - [User Stories](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#user-stories)
+- [Scope Plane](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#scope-plane)
+- [Structure Plane](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#structure-plane)
+- [Skeleton Plane](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#skeleton-plane)
+- [Surface Plane](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#surface-plane)
+- [Technologies Used](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#technologies-used)
+- [Testing](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#testing)
+- [Deployment](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#deployment)
+- [Credits](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/README.md#credits)
+
 ---
 
 ## **Introduction**
@@ -284,7 +295,7 @@ I used JSHint to check my JavaScript code, All errors were corrected.
     - I also had errors relating to functions and variables not being defined and missing semi-colons, these errors were correct with the use of ``let`` and adding the ``;`.
     - Credit to these fixes goes to, Aaron Sinnot, my mentor and Kotaro TANAKA, from Slack.
 - Error 404 when clicking the save button, to save score.
-    - I wasn't having the issue in ym IDE because during development, but Users were getting directed to a non existing page when clicking save. 
+    - I wasn't having the issue in my IDE because during development, but Users were getting directed to a non existing page when clicking save. 
     - I fixed the function relating to the save button by adding ``window.location.assign(`https://harry-leepz.github.io/StarWars-Quizapp/quiz-end.html`);`` to redirect back to the same page when Users click save.
 
 Alot of the Issues I encountered during development was due to my lack of expereince working with JavaScript. I made the mistake of using camelcase when naming variables, but not using camel case when referring to them in functions which caused some issues. 
