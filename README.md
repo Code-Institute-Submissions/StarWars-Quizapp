@@ -1,6 +1,10 @@
 # **Star Wars Quizapp - A milestone project**
 ![Responsive View of the Project](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/documentation/responsive-image.png)
 ## **Contents**
+
+- [Introduction](README.md#Introduction)
+- [UXD](README.md#UXD)
+- [Strategy Plane](README.md#Strategy)
 ---
 
 ## **Introduction**
