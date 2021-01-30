@@ -1,4 +1,6 @@
 # **Star Wars Quizapp - A milestone project**
+[Link to the live Project](https://harry-leepz.github.io/StarWars-Quizapp/)
+
 ![Responsive View of the Project](https://github.com/Harry-Leepz/StarWars-Quizapp/blob/master/documentation/responsive-image.png)
 ## **Contents**
 
@@ -36,6 +38,8 @@ I will outline the steps taken and the philosophy behind the project, from the p
 Thank you for viewing this project, I hope you enjoy my attempt at a quiz app.
 
 May the force be with you!
+
+[Link to the live Project](https://harry-leepz.github.io/StarWars-Quizapp/)
 
 ---
 
